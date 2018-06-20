@@ -1,0 +1,23 @@
+{
+  "name": "envrun",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "preferGlobal": true,
+  "directories": {
+    "bin": "./bin"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "6.0.0",
+    "shelljs": "0.8.2",
+    "yargs": "11.0.0"
+  },
+  "devDependencies": {
+    "xo": "0.21.1"
+  }
+}

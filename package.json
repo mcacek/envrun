@@ -1,6 +1,6 @@
 {
-  "name": "envrun",
-  "version": "0.1.0",
+  "name": "@mcacek/envrun",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "preferGlobal": true,
@@ -10,8 +10,20 @@
   "scripts": {
     "test": "xo"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Michael Cacek"
+  },
+  "contributors": [
+    {
+      "name": "Michael Cacek",
+      "url": "http://github.com/mcacek"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mcacek/envrun/issues"
+  },
+  "homepage": "https://github.com/mcacek/envrun",
   "dependencies": {
     "dotenv": "6.0.0",
     "shelljs": "0.8.2",
